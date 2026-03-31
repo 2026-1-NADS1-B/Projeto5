@@ -1,1 +1,11 @@
-.
+A: O pacote da escola está ativo
+I: O IP DE ORIGEM ESTÁ AUTORIZADO 
+L: O LIMITE MENSAL DE ACESSOS NÃO FOI ATINGIDO
+E: A ESCOLA ESTÁ AUTENTICADA NO SISTEMA
+P: O ACESSO AO SISTEMA É PERMITIDO
+
+O sistema permite o acesso somente quando todas as condições necessárias são satisfeitas simultaneamente.
+
+P<->(A∧I∧L∧E)
+
+Logo, o acesso será permitido se, e somente se, o pacote estiver ativo, o IP for atualizado, o limite mensal não tiver sido atingido e a escola estiver devidamente autenticada.
