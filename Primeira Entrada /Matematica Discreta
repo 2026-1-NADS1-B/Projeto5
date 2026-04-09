@@ -1,0 +1,63 @@
+A: O PACOTE DA ESCOLA ESTÁ ATIVO
+I: O IP DE ORIGEM ESTÁ AUTORIZADO 
+L: O LIMITE MENSAL DE ACESSOS NÃO FOI ATINGIDO
+E: A ESCOLA ESTÁ AUTENTICADA NO SISTEMA
+P: O ACESSO AO SISTEMA É PERMITIDO
+
+| A | I | L | E | P |
+|---|---|---|---|---|
+| V | V | V | V | V |
+| V | V | V | F | F |
+| V | V | F | V | F |
+| V | V | F | F | F |
+| V | F | V | V | F |
+| V | F | V | F | F |
+| V | F | F | V | F |
+| V | F | F | F | F |
+| F | V | V | V | F |
+| F | V | V | F | F |
+| F | V | F | V | F |
+| F | V | F | F | F |
+| F | F | V | V | F |
+| F | F | V | F | F |
+| F | F | F | V | F |
+| F | F | F | F | F |
+
+Análise da Tabela-Verdade:
+
+A proposição P representa o acesso ao sistema e é definida pela regra lógica:
+
+P <-> (A AND I AND L AND E)
+
+P é verdadeira apenas quando todas as variáveis (A, I, L e E) são verdadeiras simultaneamente. Em qualquer outra combinação de valores, o resultado será falso, indicando que o acesso é bloqueado.
+
+Isso garante que o sistema só permita acesso quando todas as condições de segurança e validação forem atendidas.
+
+Cenários de Teste:
+
+Cenário 1 – Acesso Permitido
+A = V  
+I = V  
+L = V  
+E = V  
+Resultado: P = V  
+O acesso é permitido, pois todas as condições foram atendidas.
+
+
+Cenário 2 – IP Não Autorizado
+A = V  
+I = F  
+L = V  
+E = V  
+Resultado: P = F  
+O acesso é bloqueado porque o IP não é autorizado.
+
+
+Cenário 3 – Limite de Acessos Atingido
+A = V  
+I = V  
+L = F  
+E = V  
+Resultado: P = F  
+O acesso é bloqueado pois o limite mensal foi atingido.
+
