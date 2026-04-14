@@ -26,21 +26,21 @@ Na pr√°tica, o projeto funciona simulando o uso da plataforma pelas escolas: ap√
 Raiz<br>
 |<br>
 |-->documentos<br>
-    |-->entrega1<br>
-        &emsp;|-->Algoritmo_e_Logica_de_Programacao<br>
-        &emsp;|-->README.md<br>
+    &emsp;|-->entrega1<br>
+        &emsp;&emsp;|-->Algoritmo_e_Logica_de_Programacao<br>
+        &emsp;&emsp;|-->README.md<br>
         |<br>
-        &emsp;|-->BD<br>
-        &emsp;|   |-->README.md<br>
+        &emsp;&emsp;|-->BD<br>
+        &emsp;&emsp;|   |-->README.md<br>
         |<br>
-        &emsp;|-->matematica_discreta<br>
-        &emsp;|   |-->README.md.jpg<br>
-        &emsp;|   |-->TabelaVerdade<br>
+        &emsp;&emsp;|-->matematica_discreta<br>
+        &emsp;&emsp;|   |-->README.md.jpg<br>
+        &emsp;&emsp;|   |-->TabelaVerdade<br>
         |<br>
-        &emsp;|-->ModelagemSoftware<br>
+        &emsp;&emsp;|-->ModelagemSoftware<br>
         |   |--><br>
         |<br>
-        &emsp;|-->RedeComputadores<br>
+        &emsp;&emsp;|-->RedeComputadores<br>
         |   |-->README.md<br>
     |<br>
     |-->entrega2<br>
