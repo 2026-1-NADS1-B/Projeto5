@@ -29,29 +29,20 @@ Raiz<br>
     &emsp;|-->entrega1<br>
         &emsp;&emsp;|-->Algoritmo_e_Logica_de_Programacao<br>
         &emsp;&emsp;|-->README.md<br>
-        <br>
         &emsp;&emsp;|-->BD<br>
         &emsp;&emsp;|   |-->README.md<br>
-        <br>
         &emsp;&emsp;|-->matematica_discreta<br>
         &emsp;&emsp;|   |-->README.md.jpg<br>
         &emsp;&emsp;|   |-->TabelaVerdade<br>
-        <br>
         &emsp;&emsp;|-->ModelagemSoftware<br>
         |   |--><br>
-        <br>
         &emsp;&emsp;|-->RedeComputadores<br>
            &emsp;&emsp;|-->README.md<br>
-    <br>
     |-->entrega2<br>
-    |<br>
 |-->executaveis<br>
     &emsp;|-->windows<br>
-|<br>
 |-->imagens<br>
-|<br>
 |-->src<br>
-|<br>
 |-->README.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
