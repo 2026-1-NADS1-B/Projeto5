@@ -26,27 +26,27 @@ Na pr√°tica, o projeto funciona simulando o uso da plataforma pelas escolas: ap√
 Raiz<br>
 |<br>
 |-->documentos<br>
-|   |-->entrega1<br>
-|   |   |-->Algoritmo_e_Logica_de_Programacao<br>
-|   |   |   |-->README.md<br>
-|   |   |<br>
-|   |   |-->BD<br>
-|   |   |   |-->README.md<br>
-|   |   |<br>
-|   |   |-->matematica_discreta<br>
-|   |   |   |-->README.md.jpg<br>
-|   |   |   |-->TabelaVerdade<br>
-|   |   |<br>
-|   |   |-->ModelagemSoftware<br>
-|   |   |   |--><br>
-|   |   |<br>
-|   |   |-->RedeComputadores<br>
-|   |   |   |-->README.md<br>
-|   |<br>
-|   |-->entrega2<br>
-|   |<br>
+    |-->entrega1<br>
+        |-->Algoritmo_e_Logica_de_Programacao<br>
+        |-->README.md<br>
+        |<br>
+        |-->BD<br>
+        |   |-->README.md<br>
+        |<br>
+        |-->matematica_discreta<br>
+        |   |-->README.md.jpg<br>
+        |   |-->TabelaVerdade<br>
+        |<br>
+        |-->ModelagemSoftware<br>
+        |   |--><br>
+        |<br>
+        |-->RedeComputadores<br>
+        |   |-->README.md<br>
+    |<br>
+    |-->entrega2<br>
+    |<br>
 |-->executaveis<br>
-|   |-->windows<br>
+    |-->windows<br>
 |<br>
 |-->imagens<br>
 |<br>
