@@ -67,8 +67,6 @@ Na prática, o projeto funciona simulando o uso da plataforma pelas escolas: ap�
 
 ## 🛠 Estrutura de pastas
 
-Raiz<br>
-|<br>
 |-->documentos<br>
     &emsp;|-->entrega1<br>
         &emsp;&emsp;|-->Algoritmo_e_Logica_de_Programacao<br>
