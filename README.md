@@ -23,20 +23,36 @@ Na prática, o projeto funciona simulando o uso da plataforma pelas escolas: ap�
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
+Raiz<br>
 |<br>
 |-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
+|   |-->entrega1<br>
+|   |   |-->Algoritmo_e_Logica_de_Programacao<br>
+|   |   |   |-->README.md<br>
+|   |   |<br>
+|   |   |-->BD<br>
+|   |   |   |-->README.md<br>
+|   |   |<br>
+|   |   |-->matematica_discreta<br>
+|   |   |   |-->README.md.jpg<br>
+|   |   |   |-->TabelaVerdade<br>
+|   |   |<br>
+|   |   |-->ModelagemSoftware<br>
+|   |   |   |--><br>
+|   |   |<br>
+|   |   |-->RedeComputadores<br>
+|   |   |   |-->README.md<br>
+|   |<br>
+|   |-->entrega2<br>
+|   |<br>
+|-->executaveis<br>
+|   |-->windows<br>
+|<br>
 |-->imagens<br>
+|<br>
 |-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+|<br>
+|-->README.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 
