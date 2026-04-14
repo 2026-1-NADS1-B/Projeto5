@@ -1,4 +1,3 @@
-![ludipass_logo](https://github.com/user-attachments/assets/347c77f1-bb27-4d43-a73b-65ecd76d40ff)
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
@@ -15,6 +14,7 @@
 
 
 ## Descrição
+![ludipass_logo](https://github.com/user-attachments/assets/347c77f1-bb27-4d43-a73b-65ecd76d40ff)
 !<svg width="680" height="280" viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg">
   <rect width="680" height="280" fill="white" rx="12"/>
 
