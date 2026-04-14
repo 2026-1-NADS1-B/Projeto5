@@ -17,13 +17,9 @@
 ## Descrição
 
 
+O projeto consiste no desenvolvimento de um aplicativo desktop para gestão de assinaturas de jogos educacionais, proposto pela empresa Messier Data & Creative. A solução tem como objetivo permitir que escolas gerenciem o acesso a uma plataforma de jogos digitais, controlando pacotes contratados, limites de uso mensal e autorizações de acesso por IP. Além disso, o sistema envolve a integração com banco de dados para armazenar informações como escolas, jogos, pacotes e registros de acesso, garantindo organização e controle das operações.
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+Na prática, o projeto funciona simulando o uso da plataforma pelas escolas: após o login, o sistema valida se a instituição possui um pacote ativo e se o IP está autorizado. Em seguida, exibe os jogos disponíveis conforme o plano contratado e registra cada acesso realizado, contabilizando o consumo mensal. Caso o limite seja atingido, o sistema bloqueia novos acessos e gera relatórios que permitem acompanhar o uso, auxiliando no controle e na tomada de decisões.
 
 ## 🛠 Estrutura de pastas
 
