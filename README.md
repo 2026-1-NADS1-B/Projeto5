@@ -27,26 +27,26 @@ Raiz<br>
 |<br>
 |-->documentos<br>
     |-->entrega1<br>
-        |-->Algoritmo_e_Logica_de_Programacao<br>
-        |-->README.md<br>
+        &emsp;|-->Algoritmo_e_Logica_de_Programacao<br>
+        &emsp;|-->README.md<br>
         |<br>
-        |-->BD<br>
-        |   |-->README.md<br>
+        &emsp;|-->BD<br>
+        &emsp;|   |-->README.md<br>
         |<br>
-        |-->matematica_discreta<br>
-        |   |-->README.md.jpg<br>
-        |   |-->TabelaVerdade<br>
+        &emsp;|-->matematica_discreta<br>
+        &emsp;|   |-->README.md.jpg<br>
+        &emsp;|   |-->TabelaVerdade<br>
         |<br>
-        |-->ModelagemSoftware<br>
+        &emsp;|-->ModelagemSoftware<br>
         |   |--><br>
         |<br>
-        |-->RedeComputadores<br>
+        &emsp;|-->RedeComputadores<br>
         |   |-->README.md<br>
     |<br>
     |-->entrega2<br>
     |<br>
 |-->executaveis<br>
-    |-->windows<br>
+    &emsp;|-->windows<br>
 |<br>
 |-->imagens<br>
 |<br>
