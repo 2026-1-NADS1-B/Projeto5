@@ -54,20 +54,11 @@
   <!-- Star -->
   <polygon points="250,77 253,86 262,86 255,92 258,101 250,95 242,101 245,92 238,86 247,86" fill="#ffd166" opacity="0.8"/>
 
-  <!-- Logotype -->
-  <text x="285" y="128" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="52" fill="#1a1a2e">Ludi</text>
-  <text x="421" y="128" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="52" fill="#2ec4b6">Pass</text>
-
   <!-- Divider -->
   <line x1="285" y1="145" x2="620" y2="145" stroke="#2ec4b6" stroke-width="1.5" opacity="0.45"/>
 
-  <!-- Tagline -->
-  <text x="285" y="165" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="13" fill="#6b7280" letter-spacing="3">GESTÃO DE JOGOS EDUCACIONAIS</text>
-
-  <!-- Company -->
-  <text x="285" y="188" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="11" fill="#9ca3af" letter-spacing="1.5">by Messier Data &amp; Creative</text>
 </svg>
-[Uploading ludipass_logo.svg…]()
+
 
 
 O projeto consiste no desenvolvimento de um aplicativo desktop para gestão de assinaturas de jogos educacionais, proposto pela empresa Messier Data & Creative. A solução tem como objetivo permitir que escolas gerenciem o acesso a uma plataforma de jogos digitais, controlando pacotes contratados, limites de uso mensal e autorizações de acesso por IP. Além disso, o sistema envolve a integração com banco de dados para armazenar informações como escolas, jogos, pacotes e registros de acesso, garantindo organização e controle das operações.
