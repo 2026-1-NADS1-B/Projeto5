@@ -6,7 +6,7 @@
 
 # Projeto Interdisciplinar - Assinaturas de Jogos Educacionais
 
-## Nome do Grupo: Grupo 5 Mensier Data Creative
+## Nome do Grupo: Grupo 5 Messier Data Creative
 
 ## Integrantes: <a href="www.linkedin.com/in/guilherme-ryuki-kawahira-a723b2339">Guilherme Ryuki</a>, <a href="https:https://www.linkedin.com/in/daniel-c%C3%A2mara-freitas-796772393">Daniel Camara Freitas</a>, <a href="https://br.linkedin.com/in/pedro-henrique-luvizotto-uehara-a7707330a">Pedro Luvizotto</a>, <a href="https://https://www.linkedin.com/in/daniel-mendon%C3%A7a-sulato-3b9841397">Daniel Sulato</a>
 
