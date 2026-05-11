@@ -1,27 +1,57 @@
-# README
+CREATE DATABASE Messier;
+use Messier;
 
-## Projeto
+CREATE TABLE Game (
+    ID_Game INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(100) NOT NULL,
+    descricao TEXT
+);
 
-Sistema Desktop para Gestão de Assinaturas de Jogos Educacionais
+CREATE TABLE Escola (
+    ID_Escola INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(100) NOT NULL
+);
 
-## Objetivo
+CREATE TABLE Pacote (
+    ID_Pacote INT PRIMARY KEY AUTO_INCREMENT,
+    Plano VARCHAR(50) NOT NULL,
+    idEscola INT,
 
-O projeto tem como objetivo desenvolver um banco de dados para gerenciamento de escolas, pacotes de jogos educacionais, logs de acesso e IPs autorizados.
+    FOREIGN KEY (idEscola)
+    REFERENCES Escola(ID_Escola)
+);
 
-## Tabelas Desenvolvidas
+CREATE TABLE PacoteGame (
+    ID_Game INT,
+    ID_Pacote INT,
 
- Escola
- Game
- Pacote
- PacoteGame
- Acesso (Log)
- IP_Autorizado
+    PRIMARY KEY (ID_Game, ID_Pacote),
 
-## Relacionamentos
+    FOREIGN KEY (ID_Game)
+    REFERENCES Game(ID_Game),
 
- Uma escola pode possuir vários pacotes.
- Um pacote pode conter vários jogos.
- Um jogo pode pertencer a vários pacotes.
- A escola possui registros de acesso aos jogos.
- A escola pode possuir vários IPs autorizados.
+    FOREIGN KEY (ID_Pacote)
+    REFERENCES Pacote(ID_Pacote)
+);
 
+CREATE TABLE Acesso_Log (
+    ID_Acesso INT PRIMARY KEY AUTO_INCREMENT,
+    data_hora DATETIME NOT NULL,
+    idGame INT,
+    idEscola INT,
+
+    FOREIGN KEY (idGame)
+    REFERENCES Game(ID_Game),
+
+    FOREIGN KEY (idEscola)
+    REFERENCES Escola(ID_Escola)
+);
+
+CREATE TABLE IP_Autorizado (
+    ID_IP INT PRIMARY KEY AUTO_INCREMENT,
+    IP VARCHAR(45) NOT NULL,
+    idEscola INT,
+
+    FOREIGN KEY (idEscola)
+    REFERENCES Escola(ID_Escola)
+);
